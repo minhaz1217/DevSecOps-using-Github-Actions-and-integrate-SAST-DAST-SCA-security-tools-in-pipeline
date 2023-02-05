@@ -11,4 +11,4 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
-          args: --maven-aggregate-project
+          args: --file=projects-with-vulnerabilities/java-reachability-playground-master/pom.xml
